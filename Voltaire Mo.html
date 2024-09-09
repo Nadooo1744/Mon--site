@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation pour les Jeunes</title>
+    <link rel="stylesheet" href="styles.css">
+<style type="text/css" id="dcoder_stylesheet">body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+section h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+</style></head>
+<body>
+    <header>
+        <h1>Bienvenue sur le site de Voltaire Andal &amp; Makaveli</h1>
+        <p>Notre mission : Inspirer les jeunes à atteindre leur plein potentiel !</p>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Motivation</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Motivations pour les jeunes</h2>
+            <p>"Le succès, c'est de tomber sept fois, et de se relever huit." — Proverbe japonais</p>
+            <p>"Ne laisse jamais personne te dire que tu ne peux pas réaliser tes rêves." — Will Smith</p>
+            <p>"La persévérance est la clé du succès. Continue d'avancer même quand c'est difficile."</p>
+        </section>
+
+        <section>
+            <h2>À propos</h2>
+            <p>Ce site a été créé par <strong>Voltaire Andal</strong> et <strong>Makaveli</strong>, avec la vision d'encourager les jeunes à poursuivre leurs rêves et à surmonter les obstacles.</p>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Contactez-nous</h3>
+        <p>Téléphone : <a href="tel:+50939215706">+509 3921 5706</a></p>
+        <p>Email : <a href="mailto:example@mail.com">example@mail.com</a></p>
+        <p>© 2024 Voltaire Andal &amp; Makaveli - Tous droits réservés</p>
+    </footer>
+<script type="text/javascript" id="dcoder_script">// Liste de citations motivantes
+const citations = [
+    "Le succès n'est pas définitif, l'échec n'est pas fatal : c'est le courage de continuer qui compte. — Winston Churchill",
+    "Croyez en vous et en tout ce que vous êtes. Sachez qu'il y a quelque chose en vous qui est plus grand que n'importe quel obstacle. — Christian D. Larson",
+    "N'abandonnez jamais, car vous êtes plus près que vous ne le pensez.",
+    "Le seul moyen de réaliser l'impossible est de croire que c'est possible. — Charles Kingsleigh",
+    "Rêve grand, travaille dur et ne te laisse jamais abattre."
+];
+
+// Fonction pour afficher une citation aléatoire
+function afficherCitation() {
+    const indexAleatoire = Math.floor(Math.random() * citations.length);
+    document.getElementById("citation").textContent = citations[indexAleatoire];
+}
+</script></body></html>
